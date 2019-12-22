@@ -116,7 +116,7 @@ public class UserDAO {
 			Connection con=getConnection();
 			// En consultas, se hace uso de un Statement 
 			stmt = con.createStatement();
-		    ResultSet rs = stmt.executeQuery("select username from User where username = '"+ user + "' AND password = '" + password + "'");
+		    ResultSet rs = stmt.executeQuery("select usuario from Usuario where nombre = '"+ user + "' AND password = '" + password + "'");
 		    while (rs.next()) {
 		    	resul=true;
 		    }

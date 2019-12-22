@@ -12,8 +12,6 @@
     <meta name="description" content="Web para crear grupos de investigacion con profesionales, conocer profesionales de tu entorno, noticias, etc.">
     <meta name="keywords" content="researchers,investigadores,grupos de investigacion,profesionales">
     <meta name="author" content="Antonio Sanchez,Carlos Freire, Francisco Cordoba, Angel Cañuelo">
-    <script src="../js/funcion_validar_datos.js"></script>
-    <!--Pasalo ya antonioo-->
 </head>
 <body>
     <div class="contenedor-form">
@@ -23,11 +21,11 @@
 
         <div class="formulario">
         <h2> Iniciar Sesión </h2>
-        <form action="IniciaSesion">
+        <form action="IniciaSesion" method="POST">
                 Email<br>
-                <input type="text" placeholder="Introduce tu Email" id="log" required><br>
+                <input type="text" placeholder="Introduce tu Email" id="log" name="username"required><br>
                 Contraseña<br>
-                <input type="password" placeholder="Introduce tu Contraseña" id="pass" required><br>
+                <input type="password" placeholder="Introduce tu Contraseña" id="pass" name="password" required><br>
                 <input onclick=go() type="button" value="Iniciar Sesión">
         </form>
         <div class="olvido-password">

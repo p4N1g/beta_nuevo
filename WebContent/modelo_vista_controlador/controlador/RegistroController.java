@@ -20,7 +20,7 @@ public class RegistroController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/RegistroView.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/perfil.jsp");
 		dispatcher.forward(request, response);
 
 	}

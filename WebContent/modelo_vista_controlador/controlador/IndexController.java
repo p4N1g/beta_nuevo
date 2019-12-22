@@ -22,7 +22,7 @@ public class IndexController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/IndexView.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/perfil.jsp");
 		dispatcher.forward(request, response);
 
 	}
@@ -31,7 +31,7 @@ public class IndexController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 		throws ServletException, IOException{
 		
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/IndexView.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/perfil.jsp");
 		dispatcher.forward(request, response);
 	}
 
