@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>Acceso</title>
     <meta name="viewport" content="width-device-width">
-    <link rel="stylesheet" href="../css/styleacceso.css">
+    <link rel="stylesheet" href="../../css/styleacceso.css">
     <html xmlns="http://www.w3.org/1999/xhtml"></html>
     <meta name="description" content="Web para crear grupos de investigacion con profesionales, conocer profesionales de tu entorno, noticias, etc.">
     <meta name="keywords" content="researchers,investigadores,grupos de investigacion,profesionales">
@@ -63,7 +63,7 @@
 
 
     </div>
-    <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../js/acceso.js"></script>
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/acceso.js"></script>
 </body>
 </html>
